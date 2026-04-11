@@ -1,0 +1,6 @@
+{
+  "gruvbox-material": { "branch": "master", "commit": "afb275d8e6dc379762d122bd24e1773fc057abf3" },
+  "hydra.nvim": { "branch": "main", "commit": "8c4a9f621ec7cdc30411a1f3b6d5eebb12b469dc" },
+  "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
+  "strudel.nvim": { "branch": "main", "commit": "3a7e62c9048a318281328ad08d6269e50b884cd3" }
+}
