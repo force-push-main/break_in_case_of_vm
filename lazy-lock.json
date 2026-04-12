@@ -2,5 +2,9 @@
   "gruvbox-material": { "branch": "master", "commit": "afb275d8e6dc379762d122bd24e1773fc057abf3" },
   "hydra.nvim": { "branch": "main", "commit": "8c4a9f621ec7cdc30411a1f3b6d5eebb12b469dc" },
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
-  "strudel.nvim": { "branch": "main", "commit": "3a7e62c9048a318281328ad08d6269e50b884cd3" }
+  "nvim-web-devicons": { "branch": "master", "commit": "c72328a5494b4502947a022fe69c0c47e53b6aa6" },
+  "plenary.nvim": { "branch": "master", "commit": "74b06c6c75e4eeb3108ec01852001636d85a932b" },
+  "strudel.nvim": { "branch": "main", "commit": "3a7e62c9048a318281328ad08d6269e50b884cd3" },
+  "telescope-fzf-native.nvim": { "branch": "main", "commit": "6fea601bd2b694c6f2ae08a6c6fab14930c60e2c" },
+  "telescope.nvim": { "branch": "master", "commit": "5255aa27c422de944791318024167ad5d40aad20" }
 }
