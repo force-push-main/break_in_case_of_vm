@@ -1,6 +1,5 @@
 require("config.lazy")
 
-
 local opt = vim.opt
 local keymap = vim.keymap
 local strudel = require("strudel")
@@ -23,6 +22,7 @@ opt.relativenumber = true
 -- General settings
 opt.cursorline = true
 opt.guicursor = "n:ver25,i:ver25-blinkon250-blinkoff250-blinkwait0"
+opt.clipboard = "unnamedplus"
 
 -- Keybindings
 keymap.set("i", "jj", "<Esc>")
@@ -31,8 +31,6 @@ keymap.set("n", "J", ":m+1<CR>")
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
---test line 1
---test line 2
 --Strudel
 vim.keymap.set("n", "<leader>sl", strudel.launch, { desc = "Launch Strudel" })
 vim.keymap.set("n", "<leader>sq", strudel.quit, { desc = "Quit Strudel" })
